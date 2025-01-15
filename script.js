@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(() => {
     preloader.style.display = 'none';
     controlsContainer.classList.remove('hidden');
+    progressBarContainer.classList.remove('hidden');
   }, 1000);
 
   // Управление прогресс-баром
