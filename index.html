@@ -14,52 +14,7 @@
   </head>
   <body>
     <h3>Progress</h3>
-    <div class="app-container">
-      <!-- Прелоадер -->
-      <div class="preloader">
-        <div class="loader"></div>
-      </div>
-
-      <!-- Прогресс-бар -->
-      <div class="progress-bar-container hidden">
-        <div class="progress-bar">
-          <div class="progress-bar-fill">
-            <div class="progress-bar-fill-inner"></div>
-          </div>
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-            <circle cx="80" cy="80" r="75" stroke-linecap="butt" stroke="#1b15e9" />
-          </svg>
-        </div>
-      </div>
-
-      <div class="controls-container hidden">
-        <div class="control-group">
-          <input type="number" id="valueInput" min="0" max="100" value="0" />
-          <label for="valueInput">Value</label>
-        </div>
-        <div
-          class="error-message"
-          id="errorMessage"
-          style="display: none; color: red; margin-top: 10px"
-        >
-          Значение не должно превышать 100!
-        </div>
-        <div class="control-group">
-          <label class="switch">
-            <input type="checkbox" id="animateToggle" />
-            <span class="slider round"></span>
-          </label>
-          <span>Animate</span>
-        </div>
-        <div class="control-group">
-          <label class="switch">
-            <input type="checkbox" id="hideToggle" />
-            <span class="slider round"></span>
-          </label>
-          <span>Hide</span>
-        </div>
-      </div>
-    </div>
+    <div id="app-container"></div>
     <script src="script.js"></script>
   </body>
 </html>
